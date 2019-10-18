@@ -131,7 +131,7 @@ or
  * This also works fine from a jupyter notebook
  * there is an included Jupyter notebook called test_arkouda.ipynb
 
-## Data for development and testing
+## Data for Development and Testing
 The [Los Alamos National Lab NetFlow] dataset
 
 [Los Alamos National Lab NetFlow]:https://csr.lanl.gov/data/netflow.html
