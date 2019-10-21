@@ -7,7 +7,7 @@ In both chapel and arkouda directories
 unset PYTHONPATH
 ```
 
-To source the arkouda module, in order to connect to and arkouda_server,
+For each Terminal, to source the arkouda module, in order to connect to and arkouda_server,
 and import arkouda into a jupyter notebook, run Bash command
 
 ```bash
