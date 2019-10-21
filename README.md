@@ -13,6 +13,13 @@ and import arkouda into a jupyter notebook, run Bash command
 ```bash
 export PYTHONPATH=$PYTHONPATH:~/Documents/professional/employment/2019/DOD/arkouda/
 ```
+## Logging Execution Data
+
+When starting arkouda_server run the following command
+
+```python
+./arkouda_server -nl 1 > ak.log
+```
 
 ## Running arkouda_server
 
