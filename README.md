@@ -2,6 +2,11 @@
 
 ## Export and Source
 
+In both chapel and arkouda directories
+```bash
+unset PYTHONPATH
+```
+
 To source the arkouda module, in order to connect to and arkouda_server,
 and import arkouda into a jupyter notebook, run Bash command
 
