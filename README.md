@@ -1,25 +1,13 @@
-# Arkouda-DevOps: NumPy-like arrays at massive scale backed by Chapel.
-## _REMEMBER_: this is not yet open source software... we are currently seeking approval to open source Arkouda
+# Arkouda-DevOps: Notes for Joseph Crandalls Work on Arkouda
 
-## Building Arkouda
+## Export and Source
 
-Simply run `make` to build `arkouda_server.chpl`.
+To source the arkouda module, in order to connect to and arkouda_server,
+and import arkouda into a jupyter notebook, run Bash command
 
-If your environment requires non-system paths to find dependencies (e.g.,
-[Anaconda]), append each path to a new file `Makefile.paths` like so:
-
-```make
-# Makefile.paths
-
-# Custom Anaconda environment for Arkouda
-$(eval $(call add-path,/home/user/anaconda3/envs/arkouda))
-#                      ^ Note: No space after comma.
+```bash
+PYTHONPATH=$PYTHONPATH:~/Documents/professional/employment/2019/DOD/arkouda
 ```
-
-The `chpl` compiler will be executed with `-I`, `-L` and an `-rpath` to each
-path.
-
-[Anaconda]: https://www.anaconda.com/distribution/
 
 ## Running arkouda_server
 
@@ -56,14 +44,11 @@ or
  * there is an included Jupyter notebook called test_arkouda.ipynb
 
 ## Data for Development and Testing
-<<<<<<< HEAD
-The [Los Alamos National Lab NetFlow] dataset
-=======
+
 The Los Alamos National Lab [NetFlow] dataset with Network Event Data [field] types
 
 [NetFlow]:https://csr.lanl.gov/data/netflow.html
 [field]:https://csr.lanl.gov/data/2017.html
->>>>>>> 12e6e96e49fa4ad09a20100de667bf140d84008a
 
 ## Building Arkouda on a Mac
 
