@@ -6,7 +6,7 @@ To source the arkouda module, in order to connect to and arkouda_server,
 and import arkouda into a jupyter notebook, run Bash command
 
 ```bash
-PYTHONPATH=$PYTHONPATH:~/Documents/professional/employment/2019/DOD/arkouda
+export PYTHONPATH=$PYTHONPATH:~/Documents/professional/employment/2019/DOD/arkouda/
 ```
 
 ## Running arkouda_server
