@@ -15,9 +15,9 @@ export PYTHONPATH=$PYTHONPATH:~/Documents/professional/employment/2019/DOD/arkou
 ```
 ## Logging Execution Data
 
-When starting arkouda_server run the following command
+When starting arkouda_server run the following bash command
 
-```python
+```bash
 ./arkouda_server -nl 1 > ak.log
 ```
 
