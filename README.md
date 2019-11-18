@@ -13,6 +13,19 @@ and import arkouda into a jupyter notebook, run Bash command
 ```bash
 export PYTHONPATH=$PYTHONPATH:~/Documents/professional/employment/2019/DOD/arkouda/
 ```
+
+## Multiple Anaconda Locations
+
+```bash
+/Users/josephcrandall/anaconda3
+```
+and
+
+```bash
+/usr/local/anaconda3
+```
+
+
 ## Logging Execution Data
 
 When starting arkouda_server run the following bash command
