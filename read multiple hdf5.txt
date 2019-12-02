@@ -17,3 +17,7 @@ client                        | client
 Requieres new server function, function
     gensomio.chpl
         new function
+        
+Notes
+https://docs.python.org/3/library/glob.html
+The glob module finds all the pathnames matching a specified pattern according to the rules used by the Unix shell, although results are returned in arbitrary order.
