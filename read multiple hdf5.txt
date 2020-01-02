@@ -1,18 +1,19 @@
 client -> hpc running arkouda server -> data
 (the problem client might not have access to data)
 
-srcIP 1) read srcIP Files
-dstIP 2) read dstIP Files
+datasets
+srcIP 1) read srcIP Files (using ij)
+dstIP 2) read dstIP Files (uing ijrand)
 
-old                           |new
-                              |
-client                        | client
-    files=glob(src)           |     readall
-    readall [iteratively]     |         server
-        server                |             files=glob(str)
-            arkouda (srcIP)   |             arkouda(srcIP)
-        server                |             arkouda(desIP)
-            arkouda (desIP)   |
+old                             |new
+                                |
+client - pdarrayIO.py           | client
+    files=glob(src)             |     readall
+    readall [iteratively]       |         server
+        server - GenSymIO.chpl  |             files=glob(str)
+            arkouda (srcIP)     |             arkouda(srcIP)
+        server                  |             arkouda(desIP)
+            arkouda (desIP)     |
             
 Requieres new server function, function
     gensomio.chpl
