@@ -3,7 +3,7 @@ client -> hpc running arkouda server -> data
 
 datasets
 srcIP 1) read srcIP Files (using ij)
-dstIP 2) read dstIP Files (uing ijrand)
+dstIP 2) read dstIP Files (using ijrand)
 
 old                             |new
                                 |
