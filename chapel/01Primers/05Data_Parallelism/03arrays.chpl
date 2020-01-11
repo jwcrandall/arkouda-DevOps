@@ -11,7 +11,8 @@ writeln("After assigning two elements, A is: ", A);
 
 A[2..4] = 3.3;
 writeln("After assigning its interior values, A is: ", A);
-writeln();
+
+writeln("A2[2] =  ", A2[2]);
 
 writeln("A(2..4) is: ", A(2..4),"\n");
 
